@@ -1,7 +1,8 @@
 <?php
 
-class ConstructionStagesCreate
+class ConstructionStagesUpdate
 {
+	public $id;
 	public $name;
 	public $start_date;
 	public $end_date;
@@ -29,5 +30,8 @@ class ConstructionStagesCreate
 				}
 			}
 		}
+
+		//set id based on query string params
+		$this->id = (isset($_GET['id'])) ? $_GET['id'] : NULL;
 	}
 }
