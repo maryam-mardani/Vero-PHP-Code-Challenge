@@ -1,19 +1,3 @@
-Hello dear API creator!
-
-This repository is a playground for your submission.
-
-Before getting started, please hit the `Use this template button` to create a new repository on which you commit and push your code regularly for your task. Once you are done, please mail us the link to your repository.
-
-If you encounter a problem or have questions about the task, feel free to email us under christian.schaefers@vero.de
-
-Good luck and have fun ☘️
-
-## Prerequisites:
-The already built up code frame in this repo is a very basic API with limited functionality. Your task is to pick it up and develop new features on top of it.
-
-You can change existing code structure however you can't add any external frameworks and third party classes.
-
-There is an SQLite database (`testDb.db`) which is created and filled on the fly.
 
 There is a basic routing in `index.php` which supports `GET` and `POST` calls in particular:
 - `GET constructionStages`
@@ -38,7 +22,6 @@ Write a validation system which checks every posted field against a set of rules
 - `externalId` is `null` or any string up to 255 characters in length
 - `status` is one of `NEW`, `PLANNED` or `DELETED` and the default value is `NEW`.
 
-You should throw proper errors if a rule is not met.
 
 ## Task 3:
 Set a logic which automatically calculates `duration` based on `start_date`, `end_date` and `durationUnit` as you know that:
@@ -50,7 +33,4 @@ Set a logic which automatically calculates `duration` based on `start_date`, `en
 
 ## Default task:
 Add a nice phpDoc to every method you create!
-
-## Bonus task:
-Add a system which generates a documentation out of your API!
 
